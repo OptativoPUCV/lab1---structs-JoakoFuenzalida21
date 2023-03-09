@@ -2,3 +2,9 @@ Thu 09 Mar 2023 04:09:19 PM UTC:
  tests:  0|7
 total_score: 0/70
 97a1439
+Thu 09 Mar 2023 04:16:37 PM UTC: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+ tests:  1|6
+total_score: 10/70
+fefbaf7
