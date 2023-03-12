@@ -89,7 +89,9 @@ typedef struct {
 Vector * crearVector(int n) {
    
   Vector * vectorTemp = (Vector *) malloc(n * sizeof(Vector));
-  if(vectorTemp == NULL) return NULL;
+  if(vectorTemp == NULL)
+    return NULL;
+  
   
 }
 
