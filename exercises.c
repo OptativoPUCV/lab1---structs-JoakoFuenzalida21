@@ -140,7 +140,7 @@ void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
   int resultado = (a1+b1);
   int resultado2 = (a2+b2);
 
-  c -> dato[0]=resultado;
-  c -> dato[1]=resultado2;
+  c -> datos[0]=resultado;
+  c -> datos[1]=resultado2;
 
 }
