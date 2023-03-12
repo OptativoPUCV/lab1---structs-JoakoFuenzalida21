@@ -374,3 +374,14 @@ exercises.c:133:28: error: expected identifier before ‘;’ token
       |                            ^
 Compilation failed
 8724bfb
+Sun 12 Mar 2023 02:24:03 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:133:21: error: comparison between pointer and integer [-Werror]
+  133 |   for(int k = 0 ; k < a ; k++)
+      |                     ^
+cc1: all warnings being treated as errors
+Compilation failed
+5dc5b79
