@@ -88,9 +88,8 @@ typedef struct {
 
 Vector * crearVector(int n) {
    
-  
-  
-
+  vector * vectorTemp = (vector *) malloc(sizeof(vector));
+  if(p == NULL) return NULL;
   
 }
 
@@ -101,7 +100,7 @@ la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) 
 {
-  v -> datos[i] = valor;
+  v->datos[i] = valor;
 }
 
 /*
