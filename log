@@ -8,3 +8,17 @@ Thu 09 Mar 2023 04:16:37 PM UTC:
  tests:  1|6
 total_score: 10/70
 fefbaf7
+Sun 12 Mar 2023 12:56:37 AM UTC: 
+ exercises.c | 19 +++++++++++++++++--
+ 1 file changed, 17 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘arrayMaxMin’:
+exercises.c:43:10: error: ‘return’ with a value, in function returning void [-Werror=return-type]
+   43 |   return 0;
+      |          ^
+exercises.c:28:6: note: declared here
+   28 | void arrayMaxMin(int *a, int n, int *max, int *min) {
+      |      ^~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+63efce5
