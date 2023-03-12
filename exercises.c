@@ -93,6 +93,8 @@ Vector * crearVector(int n) {
     return NULL;
   
   
+  return vectorTemp;
+  
 }
 
 /*
