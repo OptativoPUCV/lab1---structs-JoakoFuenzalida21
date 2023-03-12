@@ -350,3 +350,17 @@ Sun 12 Mar 2023 02:16:57 AM UTC:
  tests:  5|2
 total_score: 50/70
 1d97856
+Sun 12 Mar 2023 02:23:02 AM UTC: 
+ exercises.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:133:6: error: expected expression before ‘int’
+  133 |   if(int k = 0 ; k < a -> ; k++)
+      |      ^~~
+exercises.c:135:21: error: ‘k’ undeclared (first use in this function)
+  135 |     suma = a->datos[k] + b->datos[k];
+      |                     ^
+exercises.c:135:21: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+0f956e8
