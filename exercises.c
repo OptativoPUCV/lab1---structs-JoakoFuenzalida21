@@ -109,7 +109,7 @@ la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) 
 {
-  v -> datos[i] = valor;
+  v->datos[i]=valor;
 }
 
 /*
@@ -136,5 +136,11 @@ Use las operaciones implementadas de vectores para
 sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 */
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
+
+  int resultado = (a1+b1);
+  int resultado2 = (a2+b2);
+
+  c -> dato[0]=resultado;
+  c -> dato[1]=resultado2;
 
 }

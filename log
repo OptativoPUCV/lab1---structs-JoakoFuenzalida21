@@ -329,3 +329,18 @@ Sun 12 Mar 2023 02:11:47 AM UTC:
  tests:  4|3
 total_score: 40/70
 fca25ce
+Sun 12 Mar 2023 02:16:51 AM UTC: 
+ exercises.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV2’:
+exercises.c:143:8: error: ‘Vector’ has no member named ‘dato’; did you mean ‘datos’?
+  143 |   c -> dato[0]=resultado;
+      |        ^~~~
+      |        datos
+exercises.c:144:8: error: ‘Vector’ has no member named ‘dato’; did you mean ‘datos’?
+  144 |   c -> dato[1]=resultado2;
+      |        ^~~~
+      |        datos
+Compilation failed
+6a67846
