@@ -300,3 +300,9 @@ exercises.c:97:5: note: ...this statement, but the latter is misleadingly indent
 cc1: all warnings being treated as errors
 Compilation failed
 c80e7a6
+Sun 12 Mar 2023 01:53:21 AM UTC: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  3|4
+total_score: 30/70
+a6c75cf
