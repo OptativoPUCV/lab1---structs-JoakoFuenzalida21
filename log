@@ -364,3 +364,13 @@ exercises.c:135:21: error: ‘k’ undeclared (first use in this function)
 exercises.c:135:21: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 0f956e8
+Sun 12 Mar 2023 02:23:52 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:133:28: error: expected identifier before ‘;’ token
+  133 |   for(int k = 0 ; k < a -> ; k++)
+      |                            ^
+Compilation failed
+8724bfb
