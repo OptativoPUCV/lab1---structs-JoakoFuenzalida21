@@ -286,3 +286,17 @@ Sun 12 Mar 2023 01:51:33 AM UTC:
  tests:  3|4
 total_score: 30/70
 7b6e5f7
+Sun 12 Mar 2023 01:53:11 AM UTC: 
+ exercises.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:96:3: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   96 |   if(vectorTemp -> datos ==NULL);
+      |   ^~
+exercises.c:97:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   97 |     return NULL;
+      |     ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+c80e7a6

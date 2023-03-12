@@ -91,6 +91,10 @@ Vector * crearVector(int n) {
   Vector * vectorTemp = (Vector *) malloc(n * sizeof(Vector));
   if(vectorTemp == NULL)
     return NULL;
+
+  vectorTemp -> datos = malloc(n * sizeof(int));
+  if(vectorTemp -> datos ==NULL);
+    return NULL;
   
   
   return vectorTemp;
