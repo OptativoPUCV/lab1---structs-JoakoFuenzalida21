@@ -45,3 +45,9 @@ exercises.c:100:8: error: ‘Vector’ has no member named ‘dato’; did you m
       |        datos
 Compilation failed
 b175ce2
+Sun 12 Mar 2023 01:29:35 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+d508cf4
