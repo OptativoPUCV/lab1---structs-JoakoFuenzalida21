@@ -97,7 +97,6 @@ Vector * crearVector(int n) {
 
   vectorTemp -> capacidad = n;
   
-  
   return vectorTemp;
   
 }
@@ -118,7 +117,9 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
-   return 0;
+  int valor = 0;
+  valor = v->datos[i];
+  return valor;
 }
 
 /*
